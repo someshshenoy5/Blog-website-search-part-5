@@ -19,7 +19,13 @@ body{
 .navbar{
   padding: 0px 5% !important;
 }
-
+.text-center-error{
+  color: white;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+ text-align: center;
+ padding-top: 200px;
+}
 /* <........................Article Card................................> */
 
 .article-grid {

@@ -63,7 +63,7 @@ const UpdateBlog = () => {
   }
 
   if (isError) {
-    return <div>Error: {isError.message}</div>;
+    return <div className="text-center-error">Error: Unable to access the edit page. Please check your backend code.</div>;
   }
 
   return (
